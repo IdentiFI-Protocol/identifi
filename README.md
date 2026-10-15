@@ -11,6 +11,24 @@
 
 ---
 
+## 📸 Interface & ZK-Audit Showcase
+
+IdentiFI executes 100% client-side via WebAssembly (WASM). Zero databases, zero server-side logs, total cryptographic sovereignty.
+
+### 1. Sovereign Strand Linking & Prover Interface
+Forge zero-knowledge identity signals by linking master and secondary wallets locally in volatile browser memory.
+
+![IdentiFI Landing Page](./assets/LPage.png)
+![IdentiFI Prover Interface](./assets/LinkS.png)
+
+### 2. Client-Side Cryptographic Audit (Groth16 / BN254)
+Auditors and third-party verifiers can instantly validate generated JSON proof bundles via zero-knowledge pairing checks — without revealing private keys or underlying wallet relationships.
+
+![IdentiFI ZK Auditor](./assets/audit.png)
+![IdentiFI Dashboard](./assets/dashdev.png)
+
+---
+
 ## Table of Contents
 
 - [Abstract](#abstract)
@@ -22,7 +40,7 @@
 - [Performance Benchmarks](#performance-benchmarks)
 - [Security & Memory Model](#security--memory-model)
 - [System Requirements](#system-requirements)
-- [License & Intellectual Property](#license--intellectual-property)
+- [License & Open Source](#license--open-source)
 
 ---
 
@@ -194,12 +212,11 @@ IdentiFI's security guarantees are enforced at the architectural level:
 
 ---
 
-## License & Intellectual Property
+## License & Open Source
 
-IdentiFI Protocol is **proprietary software**. All source code, compiled WASM binaries, cryptographic circuits, and architectural blueprints are the exclusive property of the IdentiFI engineering team.
+IdentiFI Protocol is released under the **MIT License**.
 
-- **Source Code:** Unauthorized redistribution, modification, or copying is strictly prohibited.
-- **WASM Binaries:** Sealed execution units. Reverse engineering or binary decompilation is prohibited.
+Feel free to audit, integrate, or build upon the architecture. Contributions, forks, and integrations are welcome. For deeper technical specifications or integration support, refer to the SDK and core repositories.
 
 ---
 
@@ -210,5 +227,5 @@ IdentiFI Protocol is **proprietary software**. All source code, compiled WASM bi
   <br/>
   <code>Status: OPERATIONAL</code>&nbsp;&nbsp;|&nbsp;&nbsp;<code>Engine: ZK-Core (Rust/WASM)</code>&nbsp;&nbsp;|&nbsp;&nbsp;<code>Compliance: 100% Stateless</code>
   <br/><br/>
-  © 2026 IdentiFI Protocol — All Rights Reserved.
+  © 2026 IdentiFI Protocol — MIT License
 </p>
